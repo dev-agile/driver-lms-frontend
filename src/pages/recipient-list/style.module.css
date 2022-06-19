@@ -1,0 +1,54 @@
+.Header {
+  color: #636e72;
+  font-size: 28px;
+  font-weight: 600;
+}
+.searchContainer {
+  /* float: right; */
+  border-bottom: 1px solid #CDD1CF;
+}
+
+.searchContainer form {
+    display: flex;
+}
+
+.searchContainer input[type='text'] , input[type='text']:focus  {
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.searchContainer button {
+  padding: 6px 10px;
+  background: transparent;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.addBtn {
+    background-color: #00E493;
+    color: #fff;
+    border-color: #00E493;
+}
+.addBtn:hover {
+    background-color: #fff;
+    color: #00E493;
+    border-color: #00E493;
+
+}
+.contactList {
+  background-color: #FBFBFB;
+}
+.letterWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.letterWrapper span {
+  margin-right: 10px;
+  color: #09A5BE;
+}
+.activeLetter {
+  font-weight: 600;
+}

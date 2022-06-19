@@ -1,0 +1,99 @@
+.icon_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon_container svg {
+    margin-bottom: 10px;
+}
+.close {
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  cursor: pointer;
+}
+.back {
+    position: absolute;
+    top: 7px;
+    left: 14px;
+    cursor: pointer;
+    display: none;
+}
+
+.heading {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 22px;
+}
+.form_fields input {
+    border: none;
+    border-bottom: 2px solid #ced4da ;
+    border-radius: 0;
+    padding-left: 0;
+}
+.form_fields input:focus {
+    box-shadow: none;
+}
+.form_fields select:focus {
+    box-shadow: none;
+}
+.form_fields select {
+    border: none;
+    border-bottom: 2px solid #ced4da ;
+    border-radius: 0;
+}
+.form_wrap {
+    padding: 0 70px 50px;
+}
+.addBtn button {
+    margin: 30px 0 10px;
+    background-color: #00e493;
+    color: #fff;
+    border-color: #00e493;
+    cursor: pointer;
+
+}
+.cancelBtn button {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+.cancelBtn button:hover {
+    background-color: #ccc;
+}
+
+.error{
+    /* margin-left: 15px !important; */
+    font-size: 13px;
+    color: red;
+  }
+
+  .userImage{
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      background-size: cover;
+      border: 1px solid #ccc;
+      display: block;
+  }
+
+  .autoComplete :focus-visible{
+      outline: none !important;
+  }
+
+@media screen and (max-width: 767px ) {
+    .close {
+        display: none;
+    }
+    .back {
+        display: block;
+    }
+    .heading {
+        margin: 30px 0;
+        font-size: 18px;
+    }
+    .form_wrap {
+        padding: 0 30px 30px;
+    }
+}

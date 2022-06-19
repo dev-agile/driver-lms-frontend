@@ -1,0 +1,19 @@
+.change_phone_number{
+    border-left-width: 30px;
+    margin-left: 10px;
+    color: royalblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nextBtn{
+    width: 100%;
+    background-color: #00e493 !important ;
+    color:#fff !important;
+    margin-top: 35px;
+    border: none !important;
+ }
+
+ .nextBtn:focus{
+    box-shadow: none !important;
+ }

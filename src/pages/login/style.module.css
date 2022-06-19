@@ -1,0 +1,10 @@
+
+.loginImage {
+    display: block;
+}
+@media screen and (max-width: 600px) {
+    .loginImage{
+        display: none;
+    }
+
+}

@@ -1,0 +1,46 @@
+.or_div_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+   
+}
+
+.or_side_div{
+    background-color: #ccc;
+    padding: 1px 20px;
+}
+
+.or_div{
+    padding: 0 10px;
+}
+
+.input_with_bottom_border{
+    outline: 0 !important;
+    border-width: 0 0 2px !important;
+    border-color: #ccc !important;
+    margin-left: 15px !important;
+}
+
+.form_wrapper{
+    margin-top: 25px;
+}
+
+.loginText{
+    border-left-width: 30px;
+    margin-left: 10px;
+    color: royalblue;
+}
+
+.existing_user{
+    font-size: 13px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .loginImage{
+        display: none;
+    }
+
+}
